@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace SmartAddresser.Editor.Core.Tools.Shared
 {
-    [FilePath("Smart Addresser/SmartAddresserSettings.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("ProjectSettings/SmartAddresserSettings.asset", FilePathAttribute.Location.ProjectFolder)]
     public sealed class SmartAddresserProjectSettings : ScriptableSingleton<SmartAddresserProjectSettings>
     {
         [SerializeField] private LayoutRuleData primaryData;
